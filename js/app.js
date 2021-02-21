@@ -1,6 +1,4 @@
-'use strict';
-
- 
+'use strict'; 
 const seatle = {
     name: 'Seatle',
     customersDefault: 0,
