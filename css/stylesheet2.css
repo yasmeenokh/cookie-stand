@@ -1,0 +1,44 @@
+nav ul li {
+    text-decoration: none;
+    display: inline-flex;
+    text-transform: capitalize;
+    list-style: none;
+    margin-right: 300px; 
+    font-size: 20pt;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    background-color: #16c79a;
+
+}
+
+   
+body{
+background-color:#f4f9f9;
+color: #007965;
+}
+
+table{
+    border-style:double;
+    background-color: #ccf2f4;
+    width: 100%;
+    text-align: justify;
+    vertical-align: middle;
+    margin-bottom: 90px;
+    
+    
+}
+table, th, td {
+    border: 1px solid crimson;
+
+  
+}
+tr:nth-child(even) {background-color: #a4ebf3;}
+
+tr:hover{
+    background-color: crimson;}
+.locationList{
+    overflow-x:auto;
+}
