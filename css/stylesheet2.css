@@ -6,7 +6,7 @@ nav ul li {
     margin-right: 300px; 
     font-size: 20pt;
 }
-a{
+a:visited{
     text-decoration: none;
 }
 a:hover {
@@ -16,8 +16,10 @@ a:hover {
 
    
 body{
-background-color:#f4f9f9;
-color: #007965;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat:repeat;   
+    color: #007965;
 }
 
 table{
