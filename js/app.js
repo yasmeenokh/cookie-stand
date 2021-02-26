@@ -1,6 +1,6 @@
 'use strict';
 
-let workingHours= ['06:00 am','07:00 am','08:00 am','09:00 am','10:00 am','11:00 am','12:00 pm','01:00 pm','02:00 pm','03:00 pm','04:00 pm','05:00 pm','06:00 pm','07:00 pm']; 
+let workingHours= ['6 am','7 am','8 am','9 am','10 am','11 am','12 pm','1 pm','2 pm','3 pm','4 pm','5 pm','6 pm','7 pm']; 
 const parentDiv = document.getElementById('locationList'); 
 const tableElement= document.createElement('table');
 parentDiv.appendChild(tableElement);

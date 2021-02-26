@@ -1,17 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
 * {
     box-sizing: border-box;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform:capitalize;
     text-align: center;
-    /* background-color: #75cfb8; */
-    color: #007965;
-    
-
+}
+a:visited{
+    text-decoration: none;
 }
 a:hover {
     background-color: #16c79a;
-
-
 }
 body{
     background-image: url(../img/background.jpg);
@@ -19,22 +17,33 @@ body{
     background-repeat:repeat;
 }
 
-header{ text-align: center;
+header{ 
+    text-align: center;
     height: 100px;
     text-decoration: none;
-    margin: 10px;
-    padding: auto;}
+    margin: 5px;
+    padding: auto;
+    color: #00917c
+}
+    
 
 h1{
     font-size: 40pt;
+    font-family:'Noto Sans JP', sans-serif;
+    color: #00917c;
 }    
 
     
 h2{ 
     text-decoration: none;
-    font-size: 30pt;
+    font-size: 20pt;
     clear: both;
     margin: 20px;
+    font-family:'Noto Sans JP', sans-serif;
+    color: #00917c;
+    text-decoration: none;
+
+
 }    
 
 img {
@@ -54,6 +63,14 @@ clear: both;
     padding: 20px;
 
 }
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007965;
+}
+.description p{
+    text-align: justify;
+    padding: 30px;
+}
 
 
 .title{ 
@@ -62,18 +79,19 @@ clear: both;
     font-weight:bolder;
     margin: 10px;
     clear: both;
+    font-family:'Noto Sans JP', sans-serif;
+    color: #00917c;
 }
+
 .list{
     text-align: center;
     /* float: left; */
     border-style: outset;
     margin: 10px;
-    border-color: ;
     border-width: 10px;
     background-color:#bbdfc8;
-
-    
-
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007965;
 }
 .container{
     display:flex;
@@ -90,8 +108,10 @@ clear: both;
     text-align: center;
     border-style: outset;
     margin: 10px;
-    border-color: ;
     border-width: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007965;
+
 }
 .container2 {
     display:flex;
@@ -101,8 +121,7 @@ footer{
     font-size:20pt;
     padding: 20px;
     margin-top: 10px;
-    
-
-    
+    font-family:'Noto Sans JP', sans-serif;
+    color:#025955;
 }
 
