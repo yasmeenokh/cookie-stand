@@ -144,8 +144,6 @@ const maximumNumber= event.target.maximumNumber.value;
 const cookieAverage= event.target.cookieAverage; 
 const location = new locations(cityName, minimumNumber, maximumNumber, cookieAverage); 
 
-// formElement.reset();
-
 tableElement.removeChild(tableElement.lastChild);
 location.numberOfCustomers();
 location.cookiePerHour(); 
